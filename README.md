@@ -7,6 +7,10 @@ A blog that demonstartes the usage of webapi and local elements
 ![alt text](<assets/images/form sc.png>)
 
 
+## Links
+
+[https://eon1220.github.io/my-blog/]
+
 ## Usage
 
 Allows you to make posts on a plog with a name and title, that then carries over to the posts page and lets you veiw the new post as well as all previous posts
