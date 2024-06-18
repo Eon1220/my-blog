@@ -7,6 +7,8 @@ const msgDiv = document.querySelector('#msg');
 
 renderLastRegistered();
 
+
+
 function displayMessage(type, message) {
   msgDiv.textContent = message;
   msgDiv.setAttribute('class', type);
