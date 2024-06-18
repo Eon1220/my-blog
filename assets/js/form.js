@@ -7,8 +7,6 @@ const msgDiv = document.querySelector('#msg');
 
 renderLastRegistered();
 
-
-
 function displayMessage(type, message) {
   msgDiv.textContent = message;
   msgDiv.setAttribute('class', type);
@@ -43,8 +41,6 @@ submitButton.addEventListener('click', function (event) {
     localStorage.setItem('Title', Title);
     localStorage.setItem('post', Post);
 
-    renderLastRegistered();
-    
-    <a href="../my-blog/blog.html">Post</a>
+    window.location.href = './blog.html';
   }
 });

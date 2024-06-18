@@ -13,3 +13,5 @@ function renderLastRegistered() {
     userTitleSpan.textContent = Title;
     userPostSpan.textContent = Post;
   }
+
+  renderLastRegistered()
